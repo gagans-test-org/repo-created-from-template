@@ -1,0 +1,7 @@
+name: Setup infrastructure and deploy your app to AWS S3
+
+on: [workflow_dispatch]
+
+jobs:
+  deploy: 
+    uses: gagans-test-org/.github/.github/workflows/create_infrastructure.yml@main
