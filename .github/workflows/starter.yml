@@ -5,3 +5,10 @@ on: [workflow_dispatch]
 jobs:
   deploy: 
     uses: gagans-test-org/.github/.github/workflows/create_infrastructure.yml@main
+    with:
+      application_name: gagan-test
+      application_id: 123
+    secrets:
+      AWS_ACCESS_KEY_ID: 123
+      AWS_SECRET_ACCESS_KEY: 456
+      AWS_REGION: us-west-2
