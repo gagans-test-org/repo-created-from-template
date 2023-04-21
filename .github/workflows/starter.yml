@@ -6,8 +6,8 @@ jobs:
   deploy: 
     uses: gagans-test-org/.github/.github/workflows/create_infrastructure.yml@main
     with:
-      application_name: gagan-test
-      application_id: 123
+      application_name: gagan-test-app
+      application_id: 123456
       aws_region: us-west-2
     secrets:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
