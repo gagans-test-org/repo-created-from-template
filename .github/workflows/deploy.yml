@@ -10,7 +10,7 @@ jobs:
       application_id: 123456
       application_slug: 'test'
       owner_name: 'gagan'
-      aws_region: 'us-west-2'
+      aws_region: us-west-2
     secrets:
       AWS_ACCESS_KEY_ID_DEV: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY_DEV: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
