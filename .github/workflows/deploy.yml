@@ -6,11 +6,11 @@ jobs:
   deploy: 
     uses: gagans-test-org/.github/.github/workflows/deploy_app.yml@main
     with:
-      application_name: gagan-test-application
+      application_name: 'gagan-test-application'
       application_id: 123456
-      application_slug: test
-      owner_name: gagan
-      aws_region: us-west-2
+      application_slug: 'test'
+      owner_name: 'gagan'
+      aws_region: 'us-west-2'
     secrets:
       AWS_ACCESS_KEY_ID_DEV: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY_DEV: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
