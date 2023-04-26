@@ -1,0 +1,7 @@
+name: Deploy your app to AWS S3 bucket
+
+on: [workflow_dispatch]
+
+jobs:
+  deploy: 
+    uses: gagans-test-org/.github/.github/workflows/deploy_app.yml@main
