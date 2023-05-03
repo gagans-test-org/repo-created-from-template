@@ -1,6 +1,6 @@
 name: Deploy your app to AWS S3 bucket
 
-on: [workflow_dispatch]
+on: [push]
 
 jobs:
   deploy: 
